@@ -1,0 +1,33 @@
+name: aspectd
+description: AOP for Flutter. AspectD is an AOP(aspect oriented programming) framework for dart. It provides call&execute&inject grammar.
+version: 1.0.1
+homepage: https://github.com/alibaba-flutter/aspectd
+
+environment:
+  sdk: ">=2.3.0-dev.68.0 <3.0.0"
+
+dev_dependencies:
+  kernel: any
+
+dependency_overrides:
+  kernel:
+    git:
+      url: git@github.com:XianyuTech/sdk.git
+      ref: stable/v2.2.3
+      path: pkg/kernel
+  meta:
+    git:
+      url: git@github.com:XianyuTech/sdk.git
+      ref: stable/v2.2.3
+      path: pkg/meta
+
+ frontend:
+   path:
+#或下载到本地，进行磁盘依赖 git clone https://github.com/dart-lang/sdk.git
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+

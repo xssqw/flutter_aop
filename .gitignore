@@ -1,0 +1,5 @@
+.packages
+.idea/*
+.dart_tool/*
+Snapshot/*
+*.iml
